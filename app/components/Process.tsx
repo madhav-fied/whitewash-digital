@@ -40,7 +40,8 @@ export default function Process() {
                 <div className="section-head">
                     <div className="section-num">[ 03 / PROCESS ]</div>
                     <h2 className="section-title reveal">
-                        Zero to live <span className="g1">in two weeks.</span>{" "}
+                        <span className="accent">Zero to live <span className="g1">in two weeks.</span>{" "}
+                        </span>
                         Guaranteed.
                     </h2>
                 </div>

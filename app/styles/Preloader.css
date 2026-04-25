@@ -1,0 +1,25 @@
+.preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: var(--accent);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 600ms ease;
+}
+
+.preloader.leave {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pre-name {
+  color: #0a0a0a;
+  font-family: var(--mono);
+  font-size: clamp(60px, 15vw, 210px);
+  letter-spacing: -0.05em;
+  line-height: 1;
+  white-space: nowrap;
+}

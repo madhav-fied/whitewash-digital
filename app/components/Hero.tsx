@@ -2,7 +2,7 @@ export default function Hero() {
     return (
         <section id="top" className="hero wrap">
             <div className="hero-meta">
-                <span className="pulse">Accepting 3 projects · Q2 · 2026</span>
+                <span className="pulse">Accepting projects now.</span>
                 <span className="g1">Est. 2023 — Chennai, IN</span>
                 <span className="g1">[ 01 / Web presence ]</span>
             </div>
@@ -11,7 +11,7 @@ export default function Hero() {
                 <span className="line">Great work</span>
                 <span className="line g1">deserves a greater</span>
                 <span className="line">
-                    online <span className="accent">presence.</span>
+                    <span className="accent">online presence.</span>
                 </span>
             </h1>
 

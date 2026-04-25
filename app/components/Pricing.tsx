@@ -5,7 +5,7 @@ export default function Pricing() {
                 <div className="section-head">
                     <div className="section-num">[ 04 / PRICING ]</div>
                     <h2 className="section-title reveal">
-                        Two packages. <span className="g1">No surprises.</span>
+                        <span className="accent">Two packages.</span> <span className="g1">No surprises.</span>
                     </h2>
                 </div>
                 <div className="pricing">

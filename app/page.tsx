@@ -1,4 +1,6 @@
-import ClientEffects from "./ClientEffects";
+import Footer from "./components/Footer";
+import Preloader from "./components/Preloader";
+import ThemeFab from "./components/ThemeFab";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Hero from "./components/Hero";
@@ -11,16 +13,8 @@ import Why from "./components/Why";
 export default function Home() {
   return (
     <>
-      <ClientEffects />
-      <button
-        id="theme-fab"
-        className="theme-fab"
-        type="button"
-        aria-label="Toggle theme"
-      >
-        ☾ Dark
-      </button>
-
+      <Preloader />
+      <ThemeFab />
       <div className="rail" id="rail" aria-hidden="true" />
       <Nav />
       <main>
@@ -32,20 +26,7 @@ export default function Home() {
         <Why />
         <Contact />
       </main>
-      <footer>
-        <div className="wrap">
-          <h2 className="footer-top reveal">
-            WHITEWASH
-            <br />
-            DIGITAL<span className="accent">.</span>
-          </h2>
-          <div className="footer-bot">
-            <span>© 2026 Whitewash Digital</span>
-            <span>Built with care · Chennai, IN</span>
-            <span className="accent">● All systems nominal</span>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }

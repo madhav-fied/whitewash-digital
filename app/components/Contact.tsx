@@ -31,15 +31,13 @@ export default function Contact() {
             <div className="wrap">
                 <div className="section-head">
                     <div className="section-num">[ 06 / CONTACT ]</div>
-                    <h2 className="section-title reveal">Let&rsquo;s get you live.</h2>
+                    <h2 className="section-title reveal"><span className="accent">Let&rsquo;s get you live.</span></h2>
                 </div>
                 <div className="contact-grid">
                     <h3 className="contact-headline reveal">
                         Tell us about
                         <br />
-                        <span className="g1">your business</span> — we&rsquo;ll
-                        <br />
-                        reply within <span className="accent">4 hours.</span>
+                        <span className="g1">your business...</span>
                     </h3>
                     <div className="contact-list reveal">
                         {contactRows.map((c) => (

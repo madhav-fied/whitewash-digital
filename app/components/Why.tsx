@@ -22,7 +22,7 @@ export default function Why() {
             <div className="wrap">
                 <div className="section-head">
                     <div className="section-num">[ 05 / WHY US ]</div>
-                    <h2 className="section-title reveal">Why choose us?</h2>
+                    <h2 className="section-title reveal">Why <span className="accent">choose</span> us?</h2>
                 </div>
             </div>
             <div className="wrap">

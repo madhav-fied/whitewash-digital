@@ -1,0 +1,21 @@
+.theme-fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 80;
+    background: var(--panel);
+    border: 1px solid var(--hair);
+    color: var(--fg);
+    padding: 10px 14px;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: border-color 180ms ease, color 180ms ease;
+}
+
+.theme-fab:hover {
+    border-color: var(--fg);
+    color: var(--accent);
+}

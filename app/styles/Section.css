@@ -1,0 +1,45 @@
+section.block {
+    padding: 120px 0;
+    border-top: 1px solid var(--hair);
+    position: relative;
+}
+
+@media (max-width: 720px) {
+    section.block {
+        padding: 80px 0;
+    }
+}
+
+.section-head {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 24px;
+    margin-bottom: 64px;
+}
+
+@media (max-width: 720px) {
+    .section-head {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-bottom: 40px;
+    }
+}
+
+.section-num {
+    color: var(--g1);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.section-title {
+    margin: 0;
+    font-size: clamp(32px, 4.8vw, 72px);
+    letter-spacing: -0.04em;
+    line-height: 1;
+    color: var(--fg);
+}
+
+.section-title .g1 {
+    color: var(--g1);
+}

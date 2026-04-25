@@ -123,3 +123,22 @@
         display: inline-block;
     }
 }
+
+.rail {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    z-index: 60;
+    pointer-events: none;
+    background: transparent;
+}
+
+.rail::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: calc(var(--progress, 0) * 100%);
+    background: var(--accent);
+}
