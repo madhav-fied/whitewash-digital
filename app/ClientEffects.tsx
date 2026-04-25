@@ -128,14 +128,6 @@ export default function ClientEffects() {
           WHITEWASH DIGITAL<span className="dot">.</span>
         </div>
       </div>
-      <button
-        id="theme-fab"
-        className="theme-fab"
-        type="button"
-        aria-label="Toggle theme"
-      >
-        ☾ Dark
-      </button>
     </>
   );
 }

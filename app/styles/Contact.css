@@ -1,0 +1,82 @@
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 56px;
+    align-items: start;
+}
+
+@media (max-width: 880px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+.contact-headline {
+    margin: 0;
+    font-size: clamp(36px, 5.2vw, 80px);
+    letter-spacing: -0.04em;
+    line-height: 0.98;
+    color: var(--fg);
+}
+
+.contact-headline .g1 {
+    color: var(--g1);
+}
+
+.contact-headline .accent {
+    color: var(--accent);
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--hair);
+}
+
+.contact-row {
+    display: grid;
+    grid-template-columns: 120px 1fr auto;
+    gap: 24px;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--hair);
+    align-items: center;
+    transition: padding-left 240ms ease;
+}
+
+.contact-row:hover {
+    padding-left: 12px;
+}
+
+.contact-row .label {
+    color: var(--g1);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.contact-row .val {
+    font-size: clamp(14px, 1.6vw, 18px);
+    letter-spacing: -0.005em;
+    color: var(--fg);
+    word-break: break-word;
+}
+
+.contact-row .arr {
+    color: var(--g2);
+    font-size: 14px;
+    transition: color 180ms ease, transform 180ms ease;
+}
+
+.contact-row:hover .arr {
+    color: var(--accent);
+    transform: translateX(4px);
+}
+
+@media (max-width: 520px) {
+    .contact-row {
+        grid-template-columns: 84px 1fr auto;
+        gap: 12px;
+        padding: 18px 0;
+    }
+}

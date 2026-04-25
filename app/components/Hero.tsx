@@ -3,7 +3,7 @@ export default function Hero() {
         <section id="top" className="hero wrap">
             <div className="hero-meta">
                 <span className="pulse">Accepting 3 projects · Q2 · 2026</span>
-                <span className="g1">Est. 2023 — Bengaluru, IN</span>
+                <span className="g1">Est. 2023 — Chennai, IN</span>
                 <span className="g1">[ 01 / Web presence ]</span>
             </div>
 

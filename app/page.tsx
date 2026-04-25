@@ -12,6 +12,15 @@ export default function Home() {
   return (
     <>
       <ClientEffects />
+      <button
+        id="theme-fab"
+        className="theme-fab"
+        type="button"
+        aria-label="Toggle theme"
+      >
+        ☾ Dark
+      </button>
+
       <div className="rail" id="rail" aria-hidden="true" />
       <Nav />
       <main>
@@ -32,7 +41,7 @@ export default function Home() {
           </h2>
           <div className="footer-bot">
             <span>© 2026 Whitewash Digital</span>
-            <span>Built with care · Bengaluru, IN</span>
+            <span>Built with care · Chennai, IN</span>
             <span className="accent">● All systems nominal</span>
           </div>
         </div>

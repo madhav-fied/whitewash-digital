@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "web presence",
     "SMB website",
     "website design India",
-    "website development Bengaluru",
+    "website development Chennai",
     "SEO",
     "brand audit",
     "whitewash digital",
@@ -87,7 +87,7 @@ const jsonLd = {
   foundingDate: "2023",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Bengaluru",
+    addressLocality: "Chennai",
     addressCountry: "IN",
   },
   contactPoint: {
