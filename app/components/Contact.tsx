@@ -1,14 +1,16 @@
+const mailToHref = `mailto:madhavcv2116@gmail.com?subject=Take%20my%20business%20online&body=Hi%2C%0A%0AI%E2%80%99m%20ready%20to%20build%20something%20that%20actually%20represents%20my%20business%20online.%0A%0ABusiness%20Name%3A%0AWebsite%20Type%3A%20(Portfolio%2C%20Business%2C%20E-commerce%2C%20etc.)%0APreferred%20Package%3A%20(Standard%20%2F%20Premium)%0A%0AYou%20can%20contact%20me%20at%3A%0APhone%3A%0A%0ALooking%20forward%20to%20working%20with%20you.%0A%0AThanks%2C%0A%5BYour%20Name%5D`
+
 const contactRows = [
     {
         label: "/ Website",
         val: "whitewash.digital",
-        href: "https://whitewash.digital",
+        href: "https://whitewash-digital.vercel.app",
         external: true,
     },
     {
         label: "/ Email",
         val: "madhavcv2116@gmail.com",
-        href: "mailto:madhavcv2116@gmail.com",
+        href: mailToHref,
         external: false,
     },
     {
@@ -20,7 +22,7 @@ const contactRows = [
     {
         label: "/ Book call",
         val: "Schedule 20 min",
-        href: "#contact",
+        href: "https://calendly.com/whitewash-digital/new-meeting",
         external: false,
     },
 ];

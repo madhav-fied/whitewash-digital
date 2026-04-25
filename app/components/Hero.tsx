@@ -34,7 +34,7 @@ export default function Hero() {
                     <a href="#pricing" className="btn">
                         See packages <span className="arrow" aria-hidden="true">→</span>
                     </a>
-                    <a href="#contact" className="btn ghost">
+                    <a href="https://calendly.com/whitewash-digital/new-meeting" className="btn ghost">
                         Book a call <span className="arrow" aria-hidden="true">↗</span>
                     </a>
                     <span

@@ -1,3 +1,6 @@
+const contactStandard = `mailto:madhavcv2116@gmail.com?subject=Take%20my%20business%20online&body=Hi%2C%0A%0AI%E2%80%99m%20ready%20to%20build%20something%20that%20actually%20represents%20my%20business%20online.%0A%0ABusiness%20Name%3A%0AWebsite%20Type%3A%20(Portfolio%2C%20Business%2C%20E-commerce%2C%20etc.)%0APreferred%20Package%3A%20Standard%0A%0AYou%20can%20contact%20me%20at%3A%0APhone%3A%0A%0ALooking%20forward%20to%20working%20with%20you.%0A%0AThanks%2C%0A%5BYour%20Name%5D`;
+const contactPremium = `mailto:madhavcv2116@gmail.com?subject=Take%20my%20business%20online&body=Hi%2C%0A%0AI%E2%80%99m%20ready%20to%20build%20something%20that%20actually%20represents%20my%20business%20online.%0A%0ABusiness%20Name%3A%0AWebsite%20Type%3A%20(Portfolio%2C%20Business%2C%20E-commerce%2C%20etc.)%0APreferred%20Package%3A%20Premium%0A%0AYou%20can%20contact%20me%20at%3A%0APhone%3A%0A%0ALooking%20forward%20to%20working%20with%20you.%0A%0AThanks%2C%0A%5BYour%20Name%5D`;
+
 export default function Pricing() {
     return (
         <section id="pricing" className="block">
@@ -34,7 +37,7 @@ export default function Pricing() {
                             <li>Mobile responsive design</li>
                             <li>Contact forms via email</li>
                         </ul>
-                        <a className="btn ghost" href="#contact">
+                        <a className="btn ghost" href={contactStandard}>
                             Choose Standard <span className="arrow" aria-hidden="true">→</span>
                         </a>
                     </div>
@@ -58,7 +61,7 @@ export default function Pricing() {
                             <li>Lead forms via WhatsApp</li>
                             <li>Client testimonials &amp; reviews</li>
                         </ul>
-                        <a className="btn accent" href="#contact">
+                        <a className="btn accent" href={contactPremium}>
                             Choose Premium <span className="arrow" aria-hidden="true">→</span>
                         </a>
                     </div>
