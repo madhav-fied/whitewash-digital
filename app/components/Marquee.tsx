@@ -1,12 +1,15 @@
-const MARQUEE_WORDS = [
-    "Web presence",
+const _marqee_words = [
     "Clean design",
+    "Web presence",
     "Fast launch",
-    "SEO-ready",
-    "Built fast",
     "Creative work",
-    "No templates",
     "For SMBs",
+    "SEO-ready",
+];
+
+const MARQUEE_WORDS = [
+    ..._marqee_words,
+    ..._marqee_words
 ];
 
 export default function Marquee() {
@@ -18,9 +21,13 @@ export default function Marquee() {
                         return (
                             <span key={idx} className="m-item">
                                 {w}
-                                <span className="plus">
-                                    +
-                                </span>
+                                {
+                                    idx != _marqee_words.length - 1 && (
+                                        <span className="plus">
+                                            +
+                                        </span>
+                                    )
+                                }
                             </span>
                         )
                     })

@@ -19,16 +19,16 @@ export default function Hero() {
                 <p className="hero-sub">
                     We help small and mid-sized businesses{" "}
                     <span className="g1">
-                        — contractors, developers, builders, boutique studios —
+                        - developers, boutiques, restaurants -
                     </span>{" "}
-                    clean up, sharpen and future-proof the way they show up online.
+                    sharpen and future-proof the way they show up online.
                 </p>
                 <div
                     className="hero-photo"
                     role="img"
                     aria-label="A clean workspace — the kind of presence we build"
                 >
-                    <span>/ workshop · march 2026</span>
+                    <span>/ estd · march 2026</span>
                 </div>
                 <div className="hero-cta">
                     <a href="#pricing" className="btn">

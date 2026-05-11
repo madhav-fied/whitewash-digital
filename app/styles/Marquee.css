@@ -9,7 +9,7 @@
     display: flex;
     gap: 48px;
     white-space: nowrap;
-    animation: scrollX 44s linear infinite;
+    animation: scrollX 8s linear infinite;
     width: max-content;
 }
 

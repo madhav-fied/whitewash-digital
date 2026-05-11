@@ -13,9 +13,9 @@ export default function About() {
                 <div className="about-grid">
                     <div />
                     <p className="about-lede reveal">
-                        Whitewash Digital is a small studio for{" "}
-                        <span className="g1">builders, founders and operators</span> who
-                        know their work speaks for itself — and want a web presence that
+                        Whitewash Digital is a small creative studio for{" "}
+                        <span className="g1">small businesses, founders and operators</span> who
+                        know their work speaks for itself and want a web presence that
                         finally catches up.
                     </p>
                     <div className="about-side reveal">
