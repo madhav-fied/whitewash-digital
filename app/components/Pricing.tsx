@@ -35,7 +35,7 @@ export default function Pricing() {
                             <li>Basic SEO setup</li>
                             <li>Project gallery</li>
                             <li>Mobile responsive design</li>
-                            <li>Contact forms via email</li>
+                            <li>Contact forms</li>
                         </ul>
                         <a className="btn ghost" href={contactStandard}>
                             Choose Standard <span className="arrow" aria-hidden="true">→</span>
@@ -58,7 +58,7 @@ export default function Pricing() {
                             <li>Post-launch aid for 6 months</li>
                             <li>Social media integrations</li>
                             <li>Private domain for 1 year</li>
-                            <li>Lead forms via WhatsApp</li>
+                            <li>Direct WhatsApp links</li>
                             <li>Client testimonials &amp; reviews</li>
                         </ul>
                         <a className="btn accent" href={contactPremium}>
