@@ -54,10 +54,9 @@ export default function Pricing() {
                         <ul>
                             <li>Fully customised website</li>
                             <li>Optimised SEO setup</li>
-                            <li>Detailed project showcase</li>
+                            <li>Detailed business showcase</li>
                             <li>Post-launch aid for 6 months</li>
                             <li>Social media integrations</li>
-                            <li>Private domain for 1 year</li>
                             <li>Direct WhatsApp links</li>
                             <li>Client testimonials &amp; reviews</li>
                         </ul>
