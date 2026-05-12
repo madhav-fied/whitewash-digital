@@ -66,6 +66,26 @@ export default function Pricing() {
                         </a>
                     </div>
                 </div>
+
+                <div className="pricing-note reveal">
+                    <div className="pricing-note-inner">
+                        <div className="pricing-note-item">
+                            <span className="pricing-note-icon">◆</span>
+                            <div>
+                                <strong>You own everything</strong>
+                                <p>The code, domain, and all hosted services are fully yours — no lock-in, ever.</p>
+                            </div>
+                        </div>
+                        <div className="pricing-note-divider" />
+                        <div className="pricing-note-item">
+                            <span className="pricing-note-icon">◆</span>
+                            <div>
+                                <strong>Setup handled for you</strong>
+                                <p>From domain config to deployment, we take care of the entire setup end-to-end.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     )
